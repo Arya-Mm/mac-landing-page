@@ -7,7 +7,9 @@ const Hero = () => {
             <h1>MacBook Pro</h1>
             <img src="/assets/hero.png" alt="MacBook Pro" />
         </div>
-        <video src ="/assets/hero-video.mp4" autoPlay muted playsInline />
+        <video autoPlay muted loop playsInline>
+  <source src="/assets/hero-video.mp4" type="video/mp4" />
+</video>
     </section>
   )
 }
