@@ -1,4 +1,4 @@
-import useMacbookStore from "../Store";
+import useMacbookStore from "../Store/index.js";
 import clsx from "clsx";
 import {Canvas} from "@react-three/fiber";
 import {Box, OrbitControls} from "@react-three/drei";
